@@ -16,7 +16,7 @@
 #define nord14 #A3BE8C
 #define nord15 #B48EAD
 
-#define myfont  envypn-15 
+#define myfont  envypn
 
 ! -- Options -- !
 URxvt.internalBorder: 40 
@@ -24,7 +24,8 @@ URxvt.scrollBar: false
 xft.antialias: true
 
 ! -- Fonts -- !
-URxvt*font: xft:myfont:regular:size=12, xft:FontAwesome:size=8
+URxvt*font: xft:myfont:regular:pixelsize=15, xft:FontAwesome:size=8
+!URxvt*font: envypn7x15
 URxvt.letterSpace: -1
 
 ! -- Extensions -- !
