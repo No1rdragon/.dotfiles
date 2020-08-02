@@ -31,11 +31,6 @@ super + F1
 super + F2
 	setxkbmap ca
 
-
-#Screenshoting
-super + Shift_L + s
-	scrot -s
-
 #
 # bspwm hotkeys
 #
@@ -175,10 +170,10 @@ XF86AudioPrev
 #
 
 super + alt + grave 
-	reboot
+	sudo reboot
  
 super + alt + Escape 
-	shutdown -h now
+	sudo shutdown -h now
 
 #
 #Keyboard layouts
@@ -191,9 +186,3 @@ super + F1
 #Canadian layout
 super + F2
 	setxkbmap ca
-
-#
-#Screenshoting
-#
-super + Shift_L + s
-	scrot -s

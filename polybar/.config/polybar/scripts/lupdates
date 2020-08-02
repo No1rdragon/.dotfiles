@@ -1,3 +1,0 @@
-#!/bin/bash
-
-urxvt -e sh -c "sudo pacman -Syu"

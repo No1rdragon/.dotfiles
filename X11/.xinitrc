@@ -53,3 +53,6 @@ export AWT_TOOLKIT=MToolkit
 wmname bspwm
 #exec /bin/bspwm
 exec dbus-launch --exit-with-session bspwm
+#export XDG_SESSION_TYPE=x11
+#export GDK_BACKEND=x11
+#exec gnome-session

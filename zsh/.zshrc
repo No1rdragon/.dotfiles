@@ -74,10 +74,10 @@ plugins=(git)
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export QT_QPA_PLATFORMTHEME=gtk2
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -114,5 +114,7 @@ ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
+
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then exec startx; fi
 
 source $ZSH/oh-my-zsh.sh
